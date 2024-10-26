@@ -269,6 +269,11 @@ print(len(lista_50_InversamenteOrdenado ))
 print(len(lista_100_InversamenteOrdenado ))
 print(len(lista_1000_InversamenteOrdenado ))
 
+
+
+
+#DEFININDO AS FUNÇÕES DE ORDENAÇÃO :
+
 # Ordenação Simples:
 
 #Bubble Sort
@@ -292,8 +297,39 @@ def bubble_sort(s):
     return s
 
 
-start_time = time.time()
+start_time_10_desord = time.time()
 print(bubble_sort(lista_10_Desordenado))
-end_time = time.time()
+end_time_10_desord = time.time()
 
-print(f"Tempo de execução : {end_time - start_time} segundos")
+print(f"Tempo de execução com a lista de 10 elementos desordenados: {end_time_10_desord - start_time_10_desord} segundos")
+
+
+start_time_25_desord = time.time()
+print(bubble_sort(lista_25_Desordenado))
+end_time_25_desord = time.time()
+
+print(f"Tempo de execução com a lista de 25 elementos desordenados: {end_time_25_desord - start_time_25_desord} segundos")
+
+
+start_time_50_desord = time.time()
+print(bubble_sort(lista_50_Desordenado))
+end_time_50_desord = time.time()
+
+print(f"Tempo de execução com a lista de 50 elementos desordenados: {end_time_50_desord - start_time_50_desord} segundos")
+
+
+start_time_100_desord = time.time()
+print(bubble_sort(lista_100_Desordenado))
+end_time_100_desord = time.time()
+
+print(f"Tempo de execução com a lista de 100 elementos desordenados: {end_time_100_desord - start_time_100_desord} segundos")
+
+
+start_time_1000_desord = time.time()
+print(bubble_sort(lista_1000_Desordenado))
+end_time_1000_desord = time.time()
+
+print(f"Tempo de execução com a lista de 1000 elementos desordenados: {end_time_1000_desord - start_time_1000_desord} segundos")
+
+
+
