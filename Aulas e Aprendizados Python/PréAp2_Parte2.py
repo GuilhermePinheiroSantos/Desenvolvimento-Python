@@ -285,12 +285,12 @@ def empurra(s, n):
 
 
 def bubble_sort(s):
-    lista2 = lista_10_Desordenado[:]
-    n = len(lista2)
+    n = len(s)
     while n > 1:
-        empurra(lista2, n)
+        empurra(s, n)
         n -= 1
-    return lista2
+    return s
+
 
 start_time = time.time()
 print(bubble_sort(lista_10_Desordenado))
